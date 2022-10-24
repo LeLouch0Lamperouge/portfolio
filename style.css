@@ -102,9 +102,9 @@ html {
     color: #fff;
 }
 .lelouch-header-scroll {
-    display: flex;
-    margin: auto;
-    width: 70%;
+    position: absolute;
+    left: 15%;
+    top: 93%;
 }
 .lelouch-header-scroll-down-a {
     color: #928A97;
