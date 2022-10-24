@@ -50,7 +50,7 @@ html {
 .lelouch-header-main {
     width: 70%;
     margin: auto;
-    padding: 90px 0;
+    padding: 9em 0;
 }
 .lelouch-header-main-info-h1, .lelouch-header-main-info-p {
     color: #fff;
@@ -103,8 +103,6 @@ html {
 }
 .lelouch-header-scroll {
     display: flex;
-    position: relative;
-    top: 110px;
     margin: auto;
     width: 70%;
 }
