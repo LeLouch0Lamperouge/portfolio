@@ -8,10 +8,10 @@ html {
     box-sizing: border-box;
 }
 .lelouch-header {
-    height: 93vh;
+    height: 95vh;
 }
 .lelouch-header-image {
-    width: 100%;
+    width: 95%;
     height: 100%;
     position: absolute;
     z-index: -2;
@@ -110,6 +110,7 @@ html {
     position: absolute;
     left: 15%;
     top: 93%;
+    z-index: 1;
 }
 .lelouch-header-scroll-down-a {
     color: #928A97;
@@ -125,14 +126,48 @@ html {
 
 .lelouch-about {
     height: 99vh;
-    width: 100%;
+    width: 90%;
+    margin: auto;
 }
 .lelouch-about-img {
-    width: 85%;
+    position: absolute;
+    width: 65%;
+    height: 100%;
+    left: 0;
+    z-index: -3;
 }
-.lelouch-about-info-img {
-    width: 40%;
+.lelouch-about-main {
+    margin: auto;
+    width: 75%;
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.lelouch-about-main-info-img {
+    width: 35%;
+    margin-top: 7%;
+}
+.lelouch-about-main-info {
+    margin-left: 3%;
+    font-size: calc(1.2rem + 0.5vw);
+}
+.lelouch-about-main-info-h2 {
+    color: #F85F73;
+    padding: 20px 0;
+}
+.lelouch-about-main-info-a {
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: block;
+    width: 185px;
+    background-color: #000C24;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5% 0;
+}
+
 
 @media screen and (max-width: 900px) {
     .lelouch-header-nav-ul {
@@ -140,6 +175,20 @@ html {
     }
     .lelouch-header-nav-bar {
         display: block;
+    }
+    .lelouch-about-main {
+        display: block;
+        text-align: center;
+    }
+    .lelouch-about-main-info-img {
+        width: 45%;
+    }
+    .lelouch-about-main-info {
+        margin-left: unset;
+        font-size: calc(1.325rem + -0.1vw);
+    }
+    .lelouch-about-main-info-a {
+        margin: 5% auto;
     }
 
 }
