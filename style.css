@@ -7,6 +7,9 @@ html {
     margin: 0;
     box-sizing: border-box;
 }
+.lelouch-header {
+    height: 93vh;
+}
 .lelouch-header-image {
     width: 100%;
     height: 100%;
@@ -49,8 +52,10 @@ html {
 }
 .lelouch-header-main {
     width: 70%;
+    height: 70%;
     margin: auto;
-    padding: 9em 0;
+    display: flex;
+    align-items: center;
 }
 .lelouch-header-main-info-h1, .lelouch-header-main-info-p {
     color: #fff;
@@ -116,6 +121,18 @@ html {
 }
 
 
+
+
+.lelouch-about {
+    height: 99vh;
+    width: 100%;
+}
+.lelouch-about-img {
+    width: 85%;
+}
+.lelouch-about-info-img {
+    width: 40%;
+}
 
 @media screen and (max-width: 900px) {
     .lelouch-header-nav-ul {
