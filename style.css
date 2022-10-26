@@ -110,7 +110,7 @@ html {
 .lelouch-header-scroll, .lelouch-about-scroll {
     position: absolute;
     left: 15%;
-    bottom: 5%;
+    bottom: 7%;
     z-index: 1;
 }
 .lelouch-header-scroll-down-a, .lelouch-about-scroll-down-a {
