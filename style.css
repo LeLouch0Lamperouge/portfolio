@@ -8,7 +8,8 @@ html {
     box-sizing: border-box;
 }
 .lelouch-header {
-    height: 95vh;
+    height: 100vh;
+    position: relative;
 }
 .lelouch-header-image {
     width: 95%;
@@ -106,18 +107,18 @@ html {
     background-image: linear-gradient(135deg,#c32aa3 30%,#992180 50%);
     color: #fff;
 }
-.lelouch-header-scroll {
+.lelouch-header-scroll, .lelouch-about-scroll {
     position: absolute;
     left: 15%;
-    top: 93%;
+    bottom: 5%;
     z-index: 1;
 }
-.lelouch-header-scroll-down-a {
+.lelouch-header-scroll-down-a, .lelouch-about-scroll-down-a {
     color: #928A97;
     text-decoration: none;
     font-size: 18px;
 }
-.lelouch-header-scroll-down-span {
+.lelouch-header-scroll-down-span, .lelouch-about-scroll-down-span {
     margin-left: 5px;
 }
 
@@ -125,15 +126,16 @@ html {
 
 
 .lelouch-about {
-    height: 99vh;
+    height: 100vh;
     width: 90%;
-    margin: auto;
+    position: relative;
 }
 .lelouch-about-img {
     position: absolute;
     width: 65%;
     height: 100%;
     left: 0;
+    top: -10%;
     z-index: -3;
 }
 .lelouch-about-main {
@@ -166,6 +168,12 @@ html {
     padding: 10px;
     border-radius: 10px;
     margin: 5% 0;
+}
+.lelouch-about-scroll {
+    position: absolute;
+    left: 15%;
+    bottom: 5%;
+    z-index: 1;
 }
 
 
